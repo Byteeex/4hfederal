@@ -14,8 +14,8 @@ export default function HomePage() {
       <section className="home-hero">
         <div className="hero-photo">
           <Image
-            src={publicAsset("/images/facility-hall.jpg")}
-            alt=""
+            src={publicAsset("/images/washington-monument.jpg")}
+            alt="Washington Monument in Washington, D.C."
             fill
             priority
             sizes="100vw"
