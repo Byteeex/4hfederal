@@ -5,6 +5,7 @@ import { ClosingCta } from "@/components/closing-cta";
 import { approvedExperience, experienceAreas } from "@/content/services";
 import { site } from "@/content/site";
 import { pageMetadata } from "@/lib/metadata";
+import { publicAsset } from "@/lib/public-asset";
 
 export const metadata: Metadata = pageMetadata(
   "About & Experience",
@@ -151,7 +152,7 @@ export default function AboutPage() {
             </div>
             <div className="about-experience-image" data-reveal>
               <Image
-                src="/images/structure.jpg"
+                src={publicAsset("/images/structure.jpg")}
                 alt="Illustrative industrial steel structure"
                 fill
                 sizes="(max-width: 800px) 100vw, 45vw"

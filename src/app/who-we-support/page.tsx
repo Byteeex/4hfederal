@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import { PageHero } from "@/components/page-hero";
 import { ClosingCta } from "@/components/closing-cta";
 import { pageMetadata } from "@/lib/metadata";
+import { publicAsset } from "@/lib/public-asset";
 
 export const metadata: Metadata = pageMetadata(
   "Who We Support",
@@ -85,7 +86,7 @@ export default function WhoWeSupportPage() {
         <div className="shell delivery-grid">
           <div className="delivery-photo" data-reveal>
             <Image
-              src="/images/federal-meeting.jpg"
+              src={publicAsset("/images/federal-meeting.jpg")}
               alt="Professional team meeting representing federal contracting coordination"
               fill
               sizes="(max-width: 800px) 100vw, 50vw"

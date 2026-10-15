@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { publicAsset } from "@/lib/public-asset";
 
 const agencies = [
   { label: "Department of the Interior", src: "/agency-seals/interior.svg" },
@@ -38,7 +39,7 @@ export function PartnerOrbit() {
           <div className="partner-orbit-ring partner-orbit-ring--inner" />
           <div className="partner-orbit-center">
             <Image
-              src="/brand/4h-logo.png"
+              src={publicAsset("/brand/4h-logo.png")}
               alt="4H Federal"
               width={96}
               height={96}
@@ -52,7 +53,7 @@ export function PartnerOrbit() {
                 style={{ "--orbit-index": index } as React.CSSProperties}
               >
                 <span className="partner-orbit-seal">
-                  <Image src={src} alt="" width={66} height={66} />
+                  <Image src={publicAsset(src)} alt="" width={66} height={66} />
                 </span>
                 <span className="sr-only">{label}</span>
               </div>

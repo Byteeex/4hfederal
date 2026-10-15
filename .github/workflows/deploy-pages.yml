@@ -31,6 +31,7 @@ jobs:
         run: npm run build
         env:
           GITHUB_ACTIONS: "true"
+          NEXT_PUBLIC_BASE_PATH: /4hfederal
           NEXT_PUBLIC_SITE_URL: https://byteeex.github.io/4hfederal
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

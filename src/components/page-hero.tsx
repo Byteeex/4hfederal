@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { publicAsset } from "@/lib/public-asset";
 
 export function PageHero({
   index,
@@ -30,7 +31,7 @@ export function PageHero({
         {image && (
           <div className="page-hero-image">
             <Image
-              src={image}
+              src={publicAsset(image)}
               alt={imageAlt || "Illustrative photography"}
               fill
               priority

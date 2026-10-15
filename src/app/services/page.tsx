@@ -6,6 +6,7 @@ import { ClosingCta } from "@/components/closing-cta";
 import { PartnerOrbit } from "@/components/partner-orbit";
 import { services } from "@/content/services";
 import { pageMetadata } from "@/lib/metadata";
+import { publicAsset } from "@/lib/public-asset";
 
 export const metadata: Metadata = pageMetadata(
   "Services",
@@ -58,14 +59,12 @@ export default function ServicesPage() {
               <div className="service-detail-visual" data-reveal>
                 <div className="service-visual-frame">
                   <Image
-                    src={
-                      [
+                    src={publicAsset([
                         "/images/facility-hall.jpg",
                         "/images/mechanical-systems.jpg",
                         "/images/planning-desk.jpg",
                         "/images/structure.jpg",
-                      ][i]
-                    }
+                      ][i])}
                     alt={`Illustrative photograph for ${service.short.toLowerCase()} support`}
                     fill
                     sizes="(max-width: 800px) 100vw, 30vw"

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { publicAsset } from "@/lib/public-asset";
 
 export function Brand({ light = false }: { light?: boolean }) {
   return (
@@ -10,7 +11,7 @@ export function Brand({ light = false }: { light?: boolean }) {
     >
       <Image
         className="brand-mark"
-        src="/brand/4h-logo.png"
+        src={publicAsset("/brand/4h-logo.png")}
         alt=""
         width={50}
         height={50}

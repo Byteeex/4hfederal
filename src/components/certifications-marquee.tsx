@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { publicAsset } from "@/lib/public-asset";
 
 const certifications = [
   { name: "SBA 8(a) Business Development", src: "/certifications/sba-8a.svg" },
@@ -17,7 +18,7 @@ function CertificationSet({ hidden = false }: { hidden?: boolean }) {
       {certifications.map((certification) => (
         <div className="certification-card" key={certification.name}>
           <Image
-            src={certification.src}
+            src={publicAsset(certification.src)}
             alt={hidden ? "" : certification.name}
             width={190}
             height={110}

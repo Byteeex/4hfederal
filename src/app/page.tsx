@@ -6,6 +6,7 @@ import { CertificationsMarquee } from "@/components/certifications-marquee";
 import { ClosingCta } from "@/components/closing-cta";
 import { services } from "@/content/services";
 import { site } from "@/content/site";
+import { publicAsset } from "@/lib/public-asset";
 
 export default function HomePage() {
   return (
@@ -13,7 +14,7 @@ export default function HomePage() {
       <section className="home-hero">
         <div className="hero-photo">
           <Image
-            src="/images/facility-hall.jpg"
+            src={publicAsset("/images/facility-hall.jpg")}
             alt=""
             fill
             priority
