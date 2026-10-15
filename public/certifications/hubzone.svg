@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 110" role="img" aria-labelledby="title">
+  <title id="title">HUBZone</title>
+  <rect width="190" height="110" fill="#F8F8F4"/>
+  <path d="M24 27h36v56H24z" fill="#016133"/>
+  <path d="M32 38h8v8h-8zm13 0h8v8h-8zM32 52h8v8h-8zm13 0h8v8h-8zM38 66h8v17h-8z" fill="#fff"/>
+  <text x="71" y="53" font-family="Arial,sans-serif" font-size="22" font-weight="800" fill="#003D2A">HUBZone</text>
+  <text x="72" y="70" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1" fill="#DB0F1A">PROGRAM</text>
+</svg>

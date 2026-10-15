@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 110" role="img" aria-labelledby="title">
+  <title id="title">Service-Disabled Veteran-Owned Small Business</title>
+  <rect width="190" height="110" fill="#F8F8F4"/>
+  <path d="M23 24h46v46H23z" fill="#003D2A"/>
+  <path d="m46 32 4 9 10 1-8 7 3 10-9-5-9 5 3-10-8-7 10-1z" fill="#fff"/>
+  <text x="79" y="49" font-family="Arial,sans-serif" font-size="19" font-weight="800" fill="#003D2A">SDVOSB</text>
+  <text x="80" y="66" font-family="Arial,sans-serif" font-size="7.5" font-weight="700" letter-spacing=".8" fill="#4F6259">VETERAN-OWNED</text>
+  <path d="M23 82h144" stroke="#DB0F1A" stroke-width="2"/>
+</svg>

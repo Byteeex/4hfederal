@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#003d2a"/>
+  <path d="M0 610h1200v190H0z" fill="#0c5138"/>
+  <path d="M220 610h760M275 555h650M330 500h540" fill="none" stroke="#db0f1a" stroke-width="3"/>
+  <path d="M325 500h550l-275-210z" fill="#102235" stroke="#f7f8f6" stroke-width="4"/>
+  <path d="M590 280c0-58 20-96 10-130M610 280c0-58-20-96-10-130" fill="none" stroke="#db0f1a" stroke-width="5"/>
+  <path d="M425 500V365h70v135M540 500V365h70v135M655 500V365h70v135M770 500V365h70v135" fill="#f7f8f6"/>
+  <path d="M290 555v55M360 555v55M430 555v55M500 555v55M570 555v55M640 555v55M710 555v55M780 555v55M850 555v55M920 555v55" stroke="#4f6259" stroke-width="5"/>
+  <text x="72" y="105" fill="#db0f1a" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">UNITED STATES / FEDERAL WORK</text>
+  <text x="72" y="715" fill="#9eafbd" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">PUBLIC INFRASTRUCTURE • ACCOUNTABILITY • SERVICE</text>
+</svg>

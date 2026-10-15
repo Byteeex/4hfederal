@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#0c5138"/>
+  <path d="M0 620h1200v180H0z" fill="#003d2a"/>
+  <rect x="160" y="145" width="730" height="480" rx="3" fill="#f7f8f6"/>
+  <rect x="215" y="205" width="310" height="22" fill="#003d2a"/>
+  <rect x="215" y="270" width="570" height="10" fill="#9aa9ae"/>
+  <rect x="215" y="315" width="520" height="10" fill="#9aa9ae"/>
+  <rect x="215" y="360" width="565" height="10" fill="#9aa9ae"/>
+  <path d="M215 430h570M215 490h570M215 550h570M405 430v120M600 430v120" fill="none" stroke="#c3cecc" stroke-width="3"/>
+  <path d="M950 170v350M865 255h170M895 220l-30 35 30 35M1005 220l30 35-30 35" fill="none" stroke="#db0f1a" stroke-width="7"/>
+  <circle cx="950" cy="575" r="65" fill="#db0f1a"/>
+  <path d="m915 575 24 24 48-56" fill="none" stroke="#003d2a" stroke-width="12"/>
+  <text x="85" y="735" fill="#a8b8c3" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">AWARD ADMINISTRATION / DELIVERABLES / CLOSEOUT</text>
+</svg>

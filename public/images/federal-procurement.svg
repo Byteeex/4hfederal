@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#e8eceb"/>
+  <path d="M0 0h1200v800H0z" fill="#003d2a" opacity=".04"/>
+  <rect x="160" y="125" width="625" height="525" fill="#f8f8f4" stroke="#003d2a" stroke-width="5"/>
+  <rect x="210" y="180" width="255" height="15" fill="#003d2a"/>
+  <rect x="210" y="230" width="465" height="9" fill="#9aa9ae"/>
+  <rect x="210" y="275" width="385" height="9" fill="#9aa9ae"/>
+  <rect x="210" y="320" width="430" height="9" fill="#9aa9ae"/>
+  <rect x="210" y="390" width="525" height="2" fill="#db0f1a"/>
+  <circle cx="310" cy="485" r="62" fill="none" stroke="#db0f1a" stroke-width="7"/>
+  <path d="m275 485 25 25 48-58" fill="none" stroke="#003d2a" stroke-width="12"/>
+  <path d="M880 180h160l90 90v350H880z" fill="#0c5138" stroke="#db0f1a" stroke-width="4"/>
+  <path d="M1040 180v95h90M930 355h125M930 405h125M930 455h90" fill="none" stroke="#f7f8f6" stroke-width="8"/>
+  <text x="80" y="740" fill="#4f6259" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">SOLICITATION REVIEW / RESPONSE COORDINATION</text>
+</svg>
