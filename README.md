@@ -45,7 +45,7 @@ The shared brand uses the approved red-and-green 4H logo artwork at `public/bran
 
 ## Deployment
 
-Deploy to a host that supports Next.js App Router route handlers, such as Vercel or a compatible Node hosting environment. Set `NEXT_PUBLIC_SITE_URL` to the final origin for canonical links, sitemap, and social metadata. Configure the three server-side email values above. Build with `npm run build` and start with `npm run start`, or use your host's standard Next.js deployment process.
+The site is configured as a static export for GitHub Pages. Pushes to `main` run `.github/workflows/deploy-pages.yml` and publish the generated `out/` directory at `https://byteeex.github.io/4hfederal`. GitHub Pages cannot run the former server-side inquiry endpoint, so the inquiry form is visibly disabled until a supported delivery service and hosting arrangement are approved.
 
 The site is provided locally for review and has not replaced the live `4hfederal.com` website. Do not point the domain or publish the draft privacy page until the owner completes the approvals below.
 

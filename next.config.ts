@@ -4,20 +4,9 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   outputFileTracingRoot: process.cwd(),
-  headers: async () => [
-    {
-      source: "/:path*",
-      headers: [
-        { key: "X-Content-Type-Options", value: "nosniff" },
-        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-        { key: "X-Frame-Options", value: "DENY" },
-        {
-          key: "Permissions-Policy",
-          value: "camera=(), microphone=(), geolocation=()",
-        },
-      ],
-    },
-  ],
+  output: "export",
+  trailingSlash: true,
+  basePath: process.env.GITHUB_ACTIONS ? "/4hfederal" : "",
 };
 
 export default nextConfig;
