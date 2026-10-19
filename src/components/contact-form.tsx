@@ -26,7 +26,7 @@ export function ContactForm() {
       </div>
       <div role="status" className="form-error-banner">
         This inquiry form is not enabled on the static GitHub Pages version of
-        this site. Please check back after the 4H Federal inquiry inbox is
+        this site. Please check back after the 4H Morocco inquiry inbox is
         published.
       </div>
       <div className="form-row">

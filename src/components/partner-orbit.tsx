@@ -40,7 +40,7 @@ export function PartnerOrbit() {
           <div className="partner-orbit-center">
             <Image
               src={publicAsset("/brand/4h-logo.png")}
-              alt="4H Federal"
+              alt="4H Morocco"
               width={96}
               height={96}
             />

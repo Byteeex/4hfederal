@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/metadata";
 export const metadata: Metadata = {
   ...pageMetadata(
     "Privacy Information",
-    "How the 4H Federal website handles introductory inquiry information. Draft for owner review.",
+    "How the 4H Morocco website handles introductory inquiry information. Draft for owner review.",
     "/privacy-policy",
   ),
   robots: { index: false, follow: true },

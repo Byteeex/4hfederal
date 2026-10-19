@@ -8,7 +8,7 @@ import { publicAsset } from "@/lib/public-asset";
 
 export const metadata: Metadata = pageMetadata(
   "Who We Support",
-  "Support for SDVOSB businesses entering federal contracting, adding bidding capacity, or exploring new markets.",
+  "Support for Small and Medium Size businesses entering federal contracting, adding bidding capacity, or exploring new markets.",
   "/who-we-support",
 );
 
@@ -43,7 +43,7 @@ export default function WhoWeSupportPage() {
         index="02"
         label="WHO WE SUPPORT"
         title="Support for the work you need done."
-        description="For SDVOSBs entering federal contracting, adding bid capacity, or evaluating new markets."
+        description="For Small and Medium Size businesses entering federal contracting, adding bid capacity, or evaluating new markets."
         image="/images/technical-team.jpg"
         imageAlt="Illustrative technical team reviewing work plans"
       />

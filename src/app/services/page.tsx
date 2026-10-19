@@ -10,7 +10,7 @@ import { publicAsset } from "@/lib/public-asset";
 
 export const metadata: Metadata = pageMetadata(
   "Services",
-  "Explore capture, sourcing, proposal development, and contract administration support for SDVOSB federal contractors.",
+  "Explore capture, sourcing, proposal development, and contract administration support for Small and Medium Size businesses.",
   "/services",
 );
 

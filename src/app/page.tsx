@@ -29,7 +29,7 @@ export default function HomePage() {
           </span>
           <h1>
             <span>Federal contracting</span>
-            <span>support for SDVOSBs.</span>
+            <span>support for Small and Medium Size businesses.</span>
           </h1>
           <div className="hero-bottom">
             <p>

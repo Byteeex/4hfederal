@@ -22,7 +22,7 @@ export function pageMetadata(
           url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: "4H Federal Government Contracting Engine",
+          alt: "4H Morocco Government Contracting Engine",
         },
       ],
     },

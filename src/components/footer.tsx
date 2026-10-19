@@ -9,7 +9,7 @@ export function Footer() {
       <div className="shell footer-main">
         <div className="footer-intro">
           <Brand light />
-          <p>Contracting support for SDVOSB businesses.</p>
+          <p>Contracting support for Small and Medium Size businesses.</p>
           <span className="footer-values">
             Honesty / Hardwork / Honor / High Standards
           </span>
@@ -32,7 +32,7 @@ export function Footer() {
         </div>
       </div>
       <div className="shell footer-bottom">
-        <span>© {new Date().getFullYear()} 4H Federal</span>
+        <span>© {new Date().getFullYear()} 4H Morocco</span>
         <span>Government Contracting Engine</span>
         <Link href="/privacy-policy">Privacy information</Link>
       </div>

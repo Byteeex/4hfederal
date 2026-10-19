@@ -7,7 +7,7 @@ export function Brand({ light = false }: { light?: boolean }) {
     <Link
       href="/"
       className={`brand ${light ? "brand--light" : ""}`}
-      aria-label="4H Federal, home"
+      aria-label="4H Morocco, home"
     >
       <Image
         className="brand-mark"
@@ -18,7 +18,7 @@ export function Brand({ light = false }: { light?: boolean }) {
         priority
       />
       <span className="brand-name">
-        <strong>4H Federal</strong>
+        <strong>4H Morocco</strong>
         <span>Government Contracting Engine</span>
       </span>
     </Link>

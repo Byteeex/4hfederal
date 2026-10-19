@@ -3,7 +3,6 @@ import { publicAsset } from "@/lib/public-asset";
 
 const certifications = [
   { name: "SBA 8(a) Business Development", src: "/certifications/sba-8a.svg" },
-  { name: "ISO 17100", src: "/certifications/iso-17100.svg" },
   {
     name: "Service-Disabled Veteran-Owned Small Business",
     src: "/certifications/sdvosb.svg",
@@ -40,7 +39,7 @@ export function CertificationsMarquee() {
           04 / PROGRAMS &amp; DESIGNATIONS
         </span>
         <h2 id="certifications-heading">
-          Identifiers found across federal contracting.
+          We support businesses from all different Socio Economic status.
         </h2>
         <p>
           Set aside programs and professional designations shape how businesses

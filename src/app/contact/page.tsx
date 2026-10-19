@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata(
   "Contact",
-  "Tell 4H Federal about your business, contracting goals, and where you may need coordinated support.",
+  "Tell 4H Morocco about your business, contracting goals, and where you may need coordinated support.",
   "/contact",
 );
 

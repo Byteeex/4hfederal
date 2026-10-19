@@ -9,7 +9,7 @@ import { publicAsset } from "@/lib/public-asset";
 
 export const metadata: Metadata = pageMetadata(
   "About & Experience",
-  "Learn how 4H Federal coordinates contracting support with clear roles, client approvals, and disciplined administration.",
+  "Learn how 4H Morocco coordinates contracting support with clear roles, client approvals, and disciplined administration.",
   "/about",
 );
 
@@ -43,7 +43,7 @@ export default function AboutPage() {
         index="03"
         label="ABOUT & EXPERIENCE"
         title="Contracting support with clear responsibilities."
-        description="4H helps SDVOSB businesses organize pursuits, proposals, sourcing, and contract administration while clients retain decision-making authority."
+        description="4H helps Small and Medium Size businesses organize pursuits, proposals, sourcing, and contract administration while clients retain decision-making authority."
         variant="light"
         image="/images/planning-desk.jpg"
         imageAlt="Illustrative planning desk with technical documents under review"
@@ -58,7 +58,7 @@ export default function AboutPage() {
           </div>
           <div data-reveal>
             <p className="lead">
-              4H Federal supports SDVOSB businesses with defined contracting
+              4H Morocco supports Small and Medium Size businesses with defined contracting
               activities.
             </p>
             <p>
@@ -139,10 +139,8 @@ export default function AboutPage() {
                 Relevant service <em>environments.</em>
               </h2>
               <p>
-                The support model is designed for opportunities where clear
-                scope, qualified contributors, and coordinated delivery matter.
-                These categories describe relevant work environments and are not
-                presented as completed 4H projects.
+                Whether your goal is to target one NAICS code or multiple, we
+                have the experience to support your vision.
               </p>
               <ul>
                 {experienceAreas.map((area) => (

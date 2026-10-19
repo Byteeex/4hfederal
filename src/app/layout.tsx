@@ -29,15 +29,15 @@ const mono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "4H Federal | Government Contracting Engine",
-    template: "%s | 4H Federal",
+    default: "4H Morocco | Government Contracting Engine",
+    template: "%s | 4H Morocco",
   },
   description: site.description,
   alternates: { canonical: site.url },
   openGraph: {
     type: "website",
     siteName: site.name,
-    title: "4H Federal | Government Contracting Engine",
+    title: "4H Morocco | Government Contracting Engine",
     description: site.description,
     url: site.url,
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
