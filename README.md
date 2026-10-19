@@ -45,9 +45,9 @@ The shared brand uses the approved red-and-green 4H logo artwork at `public/bran
 
 ## Deployment
 
-The site is configured as a static export for GitHub Pages. Pushes to `main` run `.github/workflows/deploy-pages.yml` and publish the generated `out/` directory at `https://byteeex.github.io/4hfederal`. GitHub Pages cannot run the former server-side inquiry endpoint, so the inquiry form is visibly disabled until a supported delivery service and hosting arrangement are approved.
+The site is configured as a static export for GitHub Pages. Pushes to `main` run `.github/workflows/deploy-pages.yml` and publish the generated `out/` directory for `https://4hmorocco.com`. The custom domain is declared in `public/CNAME`. GitHub Pages cannot run the former server-side inquiry endpoint, so the inquiry form is visibly disabled until a supported delivery service and hosting arrangement are approved.
 
-The site is provided locally for review and has not replaced the live `4hfederal.com` website. Do not point the domain or publish the draft privacy page until the owner completes the approvals below.
+Configure the domain's DNS at Hostinger with four GitHub Pages `A` records for `@` (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`) and a `CNAME` record for `www` pointing to `byteeex.github.io`. After DNS propagation, add `4hmorocco.com` under the repository's GitHub Pages custom-domain settings and enable HTTPS.
 
 ## Owner approvals before launch
 

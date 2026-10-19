@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   outputFileTracingRoot: process.cwd(),
   output: "export",
   trailingSlash: true,
-  basePath: process.env.GITHUB_ACTIONS ? "/4hfederal" : "",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
   images: { unoptimized: true },
 };
 

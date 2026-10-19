@@ -1,7 +1,7 @@
 export const site = {
   name: "4H Morocco",
   serviceIdentity: "Government Contracting Engine",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.4hfederal.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://4hmorocco.com",
   description:
     "Coordinated capture, sourcing, proposal, and administration support for Small and Medium Size businesses pursuing federal work.",
   // These belong to the existing direct-contracting site and are deliberately not published here.
